@@ -19,7 +19,7 @@ def parse_args():
     '''
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--image_dir', help='The folder to label. ', default='D:/Coding/detective_diglett/detective_diglett/data/images/gen1/Arcanine')
+    parser.add_argument('--image_dir', help='The folder to label. ', default='/Users/kunheeha/Desktop/AdamCode/lazylabel/images')
 
     return parser.parse_args()
 
